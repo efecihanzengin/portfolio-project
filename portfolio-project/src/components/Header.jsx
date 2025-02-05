@@ -3,12 +3,12 @@ function Header() {
   const hero = translate("hero");
   return (
     <>
-      <header className="font-Inter text-left  pt-24 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B] ">
+      <header className="font-Inter text-left pt-24 duration-500 bg-[#F4F4F4] dark:text-[#FFFFFF] dark:bg-[#2A262B]">
         <div className="px-[18vw]">
           <div className="w-32 h-32 bg-[#D9D9D9] rounded-full -mt-36 ml-24"></div>
           <div className="flex flex-row justify-self-end mb-10">
             <ModeComponent />
-            <p className="font-semibold mx-2 self-center ">| </p>
+            <p className="font-semibold mx-2 self-center">|</p>
             <LanguageChanger />
           </div>
 
@@ -26,7 +26,7 @@ function Header() {
                   {hero.greeting}
                 </h1>
                 <div className="border-b-[24px] -ml-4 rounded-lg border-solid w-48 mt-16 border-[#E92577]"></div>
-                <p className="text-5xl -mt-16 font-medium leading-snug tracking-normal  ">
+                <p className="text-5xl -mt-16 font-medium leading-snug tracking-normal">
                   {hero.profileName}
                   {hero.intro}
                 </p>
