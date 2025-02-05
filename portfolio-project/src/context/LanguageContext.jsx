@@ -1,8 +1,10 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
+import languagesData from "../data";
 import axios from "axios";
 import { toast } from "react-toastify";
 
 const LanguageContext = createContext();
+
 export const LanguageProvider = ({ children }) => {
   var lang = navigator.language || navigator.userLanguage;
   if (lang.includes("tr")) {
@@ -53,6 +55,7 @@ const [language, setLanguage] = useState(lang);
     </LanguageContext.Provider>
   );
 };
+
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   return context;
