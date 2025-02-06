@@ -109,14 +109,14 @@ const languagesData = {
 	    changeLanguage: "ENGLISH",
 	    hero: {
 		  greeting: "Merhaba! ",
-		  intro: " Ben bir ön yüz geliştiricisiyim ve 'div' ortalamayi cok seviyorum.",
-		  profileImg: "/assets/images/profilePhoto.jpg",
+		  intro: " Ben bir ön yüz geliştiricisiyim ve 'div' ortalamı çok seviyorum.",
+		  profileImg: "/assets/images/profilePhoto.png",
 		  profileName: "Ben Efe.",
-		  linkedInSVG: "/assets/images/linkedin.svg",
+		  linkedInSVG: "/assets/images/linkedin.png",
 		  linkedInLink: "https://www.linkedin.com/in/efe-cihan-zengin-7b2433102/",
 		  githubSVG: "/assets/images/github.svg",
 		  githubLink: "https://github.com/efecihanzengin",
-		  heroFooter: "Frontend ve fullstack calismak icin hazirim.",
+		  heroFooter: "Frontend ve fullstack çalışmak için hazırım.",
 		  heroFooter2: "Beni ekibinize davet edin -> ",
 		  heroFooterMail: "efecihanzengin@gmail.com",
 	    },
@@ -137,7 +137,7 @@ const languagesData = {
 			},
 			{
 			    Alt: "NODE",
-			    SRC: "/assets/images/inde.png",
+			    SRC: "/assets/images/node.svg",
 			},
 			{
 			    Alt: "VS CODE",
@@ -165,7 +165,7 @@ const languagesData = {
 		  },
 		  about: {
 			aboutMe: "Hakkımda",
-			text1: "İTÜ Deniz Ulaştırma İşletme Mühendisliği mezunuyum, ancak kariyerimi yazılım geliştirme alanına yönlendirdim. Teknolojiye ve yeniliğe olan ilgim, beni yazılım dünyasında kendimi geliştirmeye teşvik etti. Şu anda Workintech’in Full Stack Development programında eğitim alıyor ve özellikle frontend teknolojilerine odaklanıyorum. HTML, CSS, JavaScript, React ve Tailwind CSS gibi araçlarla modern, kullanıcı dostu arayüzler geliştiriyorum. Analitik düşünme becerilerimi ve problem çözme yeteneğimi, tasarım ve kodlamayla birleştirerek etkili çözümler üretmeye çalışıyorum. Hedefim, backend teknolojilerini de öğrenerek full-stack geliştirme konusunda yetkinleşmek ve kapsamlı yazılım projeleri geliştirebilmek.",
+			text1: "İTÜ Deniz Ulaştırma İşletme Mühendisliği mezunuyum, ancak kariyerimi yazılım geliştirme alanına yönlendirdim. Teknolojiye ve yeniliğe olan ilgim, beni yazılım dünyasında kendimi geliştirmeye teşvik etti. Şu anda Workintech'in Full Stack Development programında eğitim alıyor ve özellikle frontend teknolojilerine odaklanıyorum. HTML, CSS, JavaScript, React ve Tailwind CSS gibi araçlarla modern, kullanıcı dostu arayüzler geliştiriyorum. Analitik düşünme becerilerimi ve problem çözme yeteneğimi, tasarım ve kodlamayla birleştirerek etkili çözümler üretmeye çalışıyorum. Hedefim, backend teknolojilerini de öğrenerek full-stack geliştirme konusunda yetkinleşmek ve kapsamlı yazılım projeleri geliştirebilmek.",
 			text2: "Yeni teknolojileri keşfetmekten ve kendimi sürekli geliştirmekten büyük keyif alıyorum. Öğrenme sürecini hızlandırmak için detaylı araştırmalar yapıyor, edindiğim bilgileri pratiğe dökerek becerilerimi güçlendiriyorum. Merakım ve kararlılığım, yeni fırsatları yakalamamı ve alanımdaki en son gelişmeleri takip ederek kendimi güncel tutmamı sağlıyor."
 		  }
 	    },
